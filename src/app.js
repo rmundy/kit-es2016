@@ -8,6 +8,13 @@ export class App {
                 moduleId: './welcome',
                 nav: true,
                 title: 'Welcome'
+            },
+            {
+                route: 'users',
+                name: 'users',
+                moduleId: './users',
+                nav: true,
+                title: 'Github Users'
             }
     ]);
 
